@@ -43,14 +43,14 @@ def predict_accident_roberta(text):
 
 """#### **Loading Model**"""
 
-'''
+
 #Libraries required:
 !pip install transformers
 !pip install torch
 
 import torch
 from transformers import RobertaForSequenceClassification
-'''
+
 
 #Function to load both model state dictionary and config
 def load_model(model_name, num_classes):

@@ -45,8 +45,8 @@ def predict_accident_roberta(text):
 
 
 #Libraries required:
-!pip install transformers
-!pip install torch
+pip install transformers
+pip install torch
 
 
 import torch
